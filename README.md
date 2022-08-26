@@ -22,3 +22,4 @@ I compared the outputs of these four regression models to each other using Mean 
 ### 2. For getting the plot for relationship between population and appointments please run data_analysis_Iana_Fedorchuk_visualization.r code. As an input file for visualization please use for_rel_graph.csv.
 #### Please find the paper in the current repository with file name data_analysis_Iana_Fedorchuk.pdf
 #### The file that includes code with comments, README, and paper please find also in this repository. Or in the folder where you found the README. The file name is characters_Iana_Fedorchuk
+#### If you would like to see the whole GitHub repository, please click here https://github.com/yanafedorchuk/data_analysis
