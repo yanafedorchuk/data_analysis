@@ -12,3 +12,6 @@ As having an appointment with only one person, would not affect the population, 
 #### 2. ln(Population) ~ ln(appointments) + City_Fixed_Effects
 for each specification I run two models: with city fixed effects clustering and without.
 #### To see the results of the estimation, please read the paper in this repository.
+#### With the next step I tested four regression methods from scikit-learn library: Linear Regressor, Random Forest Regressor, Lasso regressor, and  LassoLars regressor. 
+I compared the outputs of these four regression models to each other using Mean Absolute Error (MAE), Mean Squared Error(MSE), and Root Mean Squared Error (RSME) -- that are normally used for scoring regression models.
+#### To see the results of comparison between 4 scikit-learn regression models, please read the paper in this repository.
