@@ -1,7 +1,7 @@
 # data_analysis
 ### Project: Analizing the relationship between English church appointments and population of settlements in 1550-1800.
 ### The H0 hypothesis: The English church appintments effected on population of English settlements in 1550-1800.
-The time frame is 1550-1800 and has a step of 25 years.
+The time frame is 1550-1800 and has a step of 25 years. The databease has data till 1835, but after performing grouping, cleaning and removing missing values, I had only time-frame available from 1550-1800.
 #### Data Source: The Cleargy DataBase: https://theclergydatabase.org.uk/. The data base stores Enlish church appointments for each unique location that is indicated as CCED_id and year of the appintment. Appointments are differentiated by the Type. For example: Induction Mandate, Death, Marriage, Nomination, etc. For each appointment Type, year and unique location id -- CCED_id there is a person id and name.
 #### Data: The final dataset included observations for 970 cities that totaled 45777 appoinments (with multiple people present). Average count of appointments for the cities from final data set per year is 10.2.
 #### Appointments: I decided to count in only appointments where multiple people were present (at least two)
